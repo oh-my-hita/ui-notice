@@ -27,4 +27,10 @@ dependencies {
     compileOnly "androidx.compose.foundation:foundation:1.9.4"
     compileOnly "androidx.compose.material:material:1.9.4"
     compileOnly "org.jsoup:jsoup:1.18.2"
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'io.github.kajimi16.ohmyhita:plugin-sdk:11'
+    testImplementation "androidx.compose.runtime:runtime:1.9.4"
+    testImplementation 'org.jsoup:jsoup:1.18.2'
+    testImplementation 'com.squareup.okhttp3:mockwebserver:4.12.0'
+    testImplementation 'org.jetbrains.kotlin:kotlin-test:1.9.22'
 }
